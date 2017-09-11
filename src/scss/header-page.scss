@@ -1,0 +1,26 @@
+.section{
+  &.header-inner {
+    padding: 0;
+  }
+}
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(57,44,29, .4);
+}
+
+.logo {
+
+  a {
+      font-size: 30px;
+      font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  }
+}
+
+.heading-description {
+  color: rgba(255, 255, 255, .6);
+}

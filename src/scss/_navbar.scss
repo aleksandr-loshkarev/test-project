@@ -1,0 +1,176 @@
+.navbar-expand-lg {
+  justify-content: space-between;
+}
+
+.navbar {
+  padding: 30px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, .1);
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: baseline;
+}
+
+.navbar-main {
+  margin: 0 40px 0 0;
+  display: flex;
+  flex-grow: 2;
+  justify-content: flex-end;
+
+  .nav-link {
+    padding: 0 20px;
+  }
+}
+
+.navbar-nav {
+  flex-wrap: wrap;
+}
+
+.login-block {
+  margin: 0;
+  padding: 15px 20px;
+  display: flex;
+  list-style: none;
+  border-radius: 5px;
+
+  > li {
+    padding: 0 5px;
+    color: $white;
+  }
+}
+
+// Burger-menu https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sidenav_push_opacity
+
+.navbar-mobile {
+  display: none;
+  margin: 0 30px 0 0;
+}
+
+.burger-menu {
+  color: $white;
+}
+
+.burger-menu {
+  cursor: pointer;
+}
+
+.icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+  background-color: currentcolor;
+}
+
+.burger-menu .icon-bar+.icon-bar {
+  margin-top: 3px;
+}
+
+.navbar-inner {
+  padding: 0 20px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding: 50px 0 0;
+
+  a {
+    padding: 0;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1em;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+
+    &:hover {
+      color: #f1f1f1;
+    }
+  }
+
+  .closebtn {
+    position: absolute;
+    top: 45px;
+    right: 25px;
+    width: 18px;
+    height: 18px;
+    margin-left: 50px;
+  }
+}
+
+.icon-closed {
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 9px;
+    left: 0;
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: #bc996f;
+    transform: rotate(45deg);
+    z-index: 1500;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 9px;
+    left: 0;
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: #bc996f;
+    transform: rotate(-45deg);
+    z-index: 1500;
+  }
+}
+
+.navbar-left {
+  margin: 0 0 35px;
+  padding: 0;
+  list-style: none;
+
+  > li {
+    margin: 0 0 15px;
+  }
+}
+
+.navbar-work {
+
+  > li {
+    margin: 0 0 20px;
+
+    a {
+      color: $white;
+    }
+  }
+}
+
+.log-sing {
+  display: none;
+  margin: 0 0 35px;
+  padding: 0;
+  list-style: none;
+  align-items: baseline;
+  color: $white;
+
+  > li {
+    margin: 0 8px 0 0;
+  }
+
+  a {
+    color: inherit;
+  }
+}

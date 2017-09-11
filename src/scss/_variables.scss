@@ -1,0 +1,44 @@
+$theme-colors: (
+  primary: #7dac3f,
+  secondary: #aa8c67,
+  success: $green,
+  info: $cyan,
+  warning: $yellow,
+  danger: $red,
+  light: #f5f5f5,
+  dark: $gray-800
+);
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 770px,
+  lg: 960px,
+  xl: 1200px
+);
+
+$container-max-widths: (
+  sm: 100%,
+  md: 100%,
+  lg: 100%,
+  xl: 1200px
+);
+
+$font-family-base: Arial, Helvetica, sans-serif;
+$font-size-base: 14px;
+
+$link-color: $black;
+$link-hover-color: rgba(0,0,0,.5);
+$link-hover-decoration: none;
+
+$h1-font-size: 30px;
+$h2-font-size: 30px;
+$h3-font-size: 23px;
+$h4-font-size: 16px;
+
+$headings-color: $black;
+
+$body-color: #747474;
+
+$card-cap-bg: $white;
+$card-border-width: 0;

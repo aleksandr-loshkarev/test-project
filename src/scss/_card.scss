@@ -1,0 +1,42 @@
+.card-header {
+  background-color: rgba(0,0,0,0);
+}
+
+.card-professional {
+  margin: 0 0 20px;
+  border: none;
+  border-radius: 0;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.icon-professional {
+  width: 50px;
+  fill: theme-color("primary");
+}
+
+ .icon-secondary {
+   height: 68px;
+   fill: theme-color("secondary");
+ }
+
+.card-create {
+  margin: 0 0 15px;
+  padding: 45px 20px 40px;
+  min-height: 100%;
+  border-radius: 10px;
+
+  .card-header {
+    padding: 0 0 45px;
+  }
+
+  .card-body {
+    padding: 0;
+  }
+
+  .card-title {
+    margin: 0 0 15px;
+  }
+}

@@ -1,0 +1,20 @@
+.slick-dots {
+  li {
+    margin: 0 11px;
+    width: 9px;
+    height: 9px;
+
+    button {
+      width: inherit;
+      height: inherit;
+
+      &:before {
+        content: '';
+        background-color: #b0b0b0;
+        width: inherit;
+        height: inherit;
+        border-radius: 4px;
+      }
+    }
+  }
+}

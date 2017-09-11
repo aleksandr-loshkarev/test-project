@@ -1,0 +1,40 @@
+.form-inline {
+  .form-control {
+    width: 100%;
+  }
+}
+
+.form-search {
+  margin: 0;
+  width: 67.38%;
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 32%;
+    left: 3%;
+    display: inline-block;
+    width: 20px;
+    height: 25px;
+    background: url(../images/location.svg) no-repeat;
+  }
+}
+
+.form-search-control {
+  padding: 20px 10px 20px 30px;
+  width: 100%;
+  border-color: $white;
+  border-radius: 4px 0 0 4px;
+  font-size: 16px;
+
+  &::placeholder {
+    font-size: inherit;
+  }
+}
+
+.icon-search {
+  display: none;
+  fill: $white;
+  height: 19px;
+}
